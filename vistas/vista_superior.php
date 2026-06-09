@@ -23,6 +23,12 @@
                   <a href="./reserva.php">Reserva</a>
                    <a href="./servicios.php">Servicios</a>
                </div>
+               <div class="menu-container">
+                    <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 >
 
              </menu>
       </header>
