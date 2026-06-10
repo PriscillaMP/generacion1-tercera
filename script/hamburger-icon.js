@@ -1,15 +1,16 @@
 console.log("Hamburger icon script loaded.");
 
-(funtion() {
+(function () {
 const MAIN_OBJ = {
     init: function() {
-    this.eventhandiers();
+    this.eventhandlers();
 },
 eventhandlers: function() {
-    document.querySelector(".hamburger-icon").addEventListener("click",funtion() {
+    document.querySelector(".hamburger-icon").addEventListener("click", function () {
         document.querySelector(".menu-derecha").classList.toggle("menu-derecha-open");
     });
 }}
 
+MAIN_OBJ.init();
 
-})
+})()
