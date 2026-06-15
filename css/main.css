@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 menu {
     height: 150px;
@@ -44,10 +45,42 @@ padding-right: 50px;
     scale: 1.2;
     color:rgb(239, 82, 15);
 }
+/*inicio*/
+.intro{
+     background-color: #e6f2ff; 
+     text-align: center;
+      padding: 50px;
+     }
+ .intro h1{
+     color: #003366;
+     }
 
+  .intro p{ width: 60%;
+     margin: auto;
+     }
 
 
 /*cads inicio*/
+.reserva-h1{
+    background-color:rgb(17, 13, 85);
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(239, 239, 244);
+    text-align:start;
+    padding: 20px 0 20px 20px;
+}
+.reserva-p{
+    background-color: rgb(247, 72, 2);;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(239, 239, 244);
+    padding: 10px 0 10px 20px;
+}
+
+
+
+
+
 .card-list{
 background-color:rgb(251, 73, 3);
     width: 100%;
@@ -133,6 +166,71 @@ font-size: 12px;
    transform: scale(0.95);
 
 }
+/*acordeon inicion */
+.servicios-h1{
+    background-color:rgb(247, 72, 2);;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(239, 239, 244);
+    text-align:start;
+    padding: 20px 0 20px 20px;
+}
+.servicios-p{
+    background-color: rgb(17, 13, 85);
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(239, 239, 244);
+    padding: 10px 0 10px 20px;
+}
+
+.main-accordion-container {
+   background-color:rgb(17, 13, 85);
+ width: 100%;                 /* ocupa todo el ancho */
+ height: 100;                /* altura automática según contenido */
+  padding: 40px 0; 
+}
+.accordion-item {
+  max-width: 600px;            /* ancho máximo de cada item */         /* centra horizontalmente cada item */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 10px 10px;              /* padding vertical para el título */
+  
+}
+
+.accordion-title {
+    font-style: italic;
+  font-size: 20px;
+  background: #3d35a4;
+  color: white;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.accordion-title:hover{
+    transform: scale(0.95);
+}
+
+.accordion-desc {
+
+  max-height: 0;              /* cerrado */
+  overflow: hidden;
+  padding: 0 10px;            /* padding lateral */
+  background: #f9f9f9;
+  transition: max-height 0.2s ease, padding 0.2s ease;
+}
+
+.accordion-item.tab-active .accordion-desc {
+  max-height: 500px;          /* abierto (ajusta según contenido) */
+  padding: 10px;              /* se muestra el padding completo */
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -206,4 +304,25 @@ justify-content: center;
     border-radius: 15px;
     overflow: hidden;
  }
+
+  .main-accordion-container
+ {
+    width: 100%;
+    height: auto;
+ }
+ .accordion-item{
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-content: center; 
+    justify-content: center;
+ }
+
+
+
+
+
 }

@@ -4,29 +4,54 @@
 }
 
  .destinos {
+  background-color: beige;
   display: flex;
+  flex-direction: column;
   align-items:self-scare;
   justify-content: space-between;
-  padding: 40px;
+  padding: 0 40xp 0 40px;
 }
 
 .texto-destinos {
-  width: 60%;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: #453962;
 }
 
+.texto-destinos h1{
+      background-color:rgb(247, 72, 2);;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(239, 239, 244);
+    text-align:start;
+    display: flex;
+    flex-direction: center;
+    padding: 20px 0 20px 20px;
+}
+
+.texto-destinos p{
+  font-size: 20;
+  padding:  15px 52px;
+  font-style: italic
+
+  ;
+}
+
 .slider {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 700px;
   height: 450px;
   overflow: hidden;
   border-radius: 10px;
   position: relative;
+  margin: 0 auto;
 }
 
 .slides {
   display: flex;
+
   width: 400%; 
   height: 100%;
 }
@@ -43,4 +68,12 @@
   width: 200px;
   opacity: 1;
   filter: contrast(120%);
+}
+@media (max-width: 768px) 
+{
+  .slider{
+    width: 90%;
+    height: max-content;
+   justify-content: center
+  }
 }

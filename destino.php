@@ -10,10 +10,10 @@
 
   <div class="slider">
     <div class="slides">
-      <img src="./img/destino1.jpeg" alt="Destino 1">
-      <img src="./img/destino2.jpg" alt="Destino 2">
-      <img src="./img/destino3.jpg" alt="Destino 3">
-       <img src="./img/destino4.jpg" alt="Destino 4">
+      <img src="./img/destino1.webp" alt="Destino 1">
+      <img src="./img/destino2.webp" alt="Destino 2">
+      <img src="./img/destino3.webp" alt="Destino 3">
+       <img src="./img/destino4.webp" alt="Destino 4">
     </div>
   </div>
 </section>
